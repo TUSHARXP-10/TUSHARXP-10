@@ -1,5 +1,5 @@
-### Tushar R. Chandane
-Based in Mumbai, building trading systems, automation workflows, and production web apps.
+## Tushar R. Chandane
+Building trading systems, automation workflows, and production web apps. Based in Mumbai.
 
 ### Focus
 - AI trading models
