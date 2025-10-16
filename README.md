@@ -1,16 +1,21 @@
-## Tushar R. Chandane
+### Tushar R. Chandane
+Based in Mumbai, building trading systems, automation workflows, and production web apps.
 
-Based in Mumbai, I specialize in building robust trading systems, automation workflows, and production-grade web applications.
-
-**Focus:**  
-- AI-driven trading models  
-- Workflow automation  
+### Focus
+- AI trading models
+- Workflow automation
 - Full‑stack platform development
 
-**Tech Stack:**  
-React. nodejs. Python · TensorFlow · React · Node.js · Docker · Kubernetes · PostgreSQL . 
+### Tech Stack
+Python · TensorFlow · React · Node.js · Docker · Kubernetes · PostgreSQL
 
----
+### Featured Projects
+- THE‑RED‑MACHINE — Institutional trading system with automated retraining pipelines
+- arvis‑desk‑command — Voice‑controlled desktop automation
+- OTT‑PORTFOLIO — Netflix‑style portfolio with integrated CMS and dynamic animations
+
+More projects: portfolio site  
+Contact:9082301827 - tusharchandane8@gmail.com
 
 ### 🚀 Featured Projects
 
