@@ -18,6 +18,8 @@ Contact:9082301827 - tusharchandane8@gmail.com
 
 ### 🚀 Featured Projects
 
+- **[WEBZOOINNOVATION](https://webzooinnovation.com)**
+- 
 - **[THE-RED-MACHINE](https://github.com/TUSHARXP-10/THE-RED-MACHINE)**  
   Institutional trading system featuring automated retraining pipelines.
 
