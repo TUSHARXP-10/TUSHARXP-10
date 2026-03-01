@@ -23,9 +23,7 @@ Specialized in creating institutional-grade trading systems, full-stack web appl
 ### Featured Applications
 
 | Project | Description | Link |
-|---------|-------------|------|
-| **ADNEX Real Estate** | AI-powered property finder with intelligent matching | [adnexx-homefinder-automator.vercel.app](https://adnexx-homefinder-automator.vercel.app) |
-| **Universe Portfolio** | Interactive portfolio & project showcase | [universe-9446.vercel.app](https://universe-9446.vercel.app) |
+|---------|-------------|------| | |
 | **WEBZOO Innovation** | Digital innovation hub & solutions platform | [webzooinnovation.com](https://webzooinnovation.com) |
 | **Aura Design Studio** | Creative design portfolio platform | [aura-design-studio-omega.vercel.app](https://aura-design-studio-omega.vercel.app) |
 | **Our Choice** | Community-driven choice platform | [ourchoice-one.vercel.app](https://ourchoice-one.vercel.app) |
@@ -35,7 +33,7 @@ Specialized in creating institutional-grade trading systems, full-stack web appl
 | **Fitness Regime** | Personal fitness tracking & workout app | [fitness-regime.vercel.app](https://fitness-regime.vercel.app) |
 | **Apex Signals** | Trading signals & market analysis platform | [apex-signals.vercel.app](https://apex-signals.vercel.app) |
 | **Salvage Solutions** | Project showcase & portfolio | [salvage-solution-showcase.vercel.app](https://salvage-solution-showcase.vercel.app) |
-| **Skardi Remix** | Creative remix & design experimentation | [remix-of-remix-of-remix-of-skardi-s.vercel.app](https://remix-of-remix-of-remix-of-skardi-s.vercel.app) |
+| **Skardi ** | Creative remix & design experimentation | [remix-of-remix-of-remix-of-skardi-s.vercel.app](https://remix-of-remix-of-remix-of-skardi-s.vercel.app) |
 
 ---
 
@@ -70,7 +68,7 @@ Specialized in creating institutional-grade trading systems, full-stack web appl
 
 ## 🤝 Let's Connect
 
-- **Email:** tusharchandane8@gmail.com | tusharchandanereplit@gmail.com
+- **Email:** tusharchandane8@gmail.com | tusharchandane8@gmail.com
 - **LinkedIn:** [Tushar Chandane](https://linkedin.com/in/tushar-chandane)
 - **Phone:** +91-9082301827
 
