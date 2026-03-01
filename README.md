@@ -22,18 +22,18 @@ Specialized in creating institutional-grade trading systems, full-stack web appl
 
 ### Featured Applications
 
-| Project | Description | Link |
-|---------|-------------|------| | |
-| **WEBZOO Innovation** | Digital innovation hub & solutions platform | [webzooinnovation.com](https://webzooinnovation.com) |
-| **Aura Design Studio** | Creative design portfolio platform | [aura-design-studio-omega.vercel.app](https://aura-design-studio-omega.vercel.app) |
-| **Our Choice** | Community-driven choice platform | [ourchoice-one.vercel.app](https://ourchoice-one.vercel.app) |
-| **RLM Prestige Real Estate** | Premium real estate showcase | [rlm-prestigerealestate.vercel.app](https://rlm-prestigerealestate.vercel.app) |
-| **Style Hub** | Fashion & design style collection | [remix-of-remix-of-skardi-style-hub.vercel.app](https://remix-of-remix-of-skardi-style-hub.vercel.app) |
-| **Style Hub V2** | Enhanced style hub with new features | [remix-of-remix-of-skardi-style-hub-psi.vercel.app](https://remix-of-remix-of-skardi-style-hub-psi.vercel.app) |
-| **Fitness Regime** | Personal fitness tracking & workout app | [fitness-regime.vercel.app](https://fitness-regime.vercel.app) |
-| **Apex Signals** | Trading signals & market analysis platform | [apex-signals.vercel.app](https://apex-signals.vercel.app) |
-| **Salvage Solutions** | Project showcase & portfolio | [salvage-solution-showcase.vercel.app](https://salvage-solution-showcase.vercel.app) |
-| **Skardi ** | Creative remix & design experimentation | [remix-of-remix-of-remix-of-skardi-s.vercel.app](https://remix-of-remix-of-remix-of-skardi-s.vercel.app) |
+| Project                     | Description                                  | Link                                                                              |
+|-----------------------------|----------------------------------------------|-----------------------------------------------------------------------------------|
+| **WEBZOO Innovation**       | Digital innovation hub & solutions platform  | [webzooinnovation.com](https://webzooinnovation.com)                              |
+| **Aura Design Studio**      | Creative design portfolio platform           | [aura-design-studio-omega.vercel.app](https://aura-design-studio-omega.vercel.app)|
+| **Our Choice**              | Community-driven choice platform             | [ourchoice-one.vercel.app](https://ourchoice-one.vercel.app)                      |
+| **RLM Prestige Real Estate**| Premium real estate showcase                 | [rlm-prestigerealestate.vercel.app](https://rlm-prestigerealestate.vercel.app)    |
+| **Style Hub**               | Fashion & design style collection            | [remix-of-remix-of-skardi-style-hub.vercel.app](https://remix-of-remix-of-skardi-style-hub.vercel.app) |
+| **Style Hub V2**            | Enhanced style hub with new features         | [remix-of-remix-of-skardi-style-hub-psi.vercel.app](https://remix-of-remix-of-skardi-style-hub-psi.vercel.app) |
+| **Fitness Regime**          | Personal fitness tracking & workout app      | [fitness-regime.vercel.app](https://fitness-regime.vercel.app)                    |
+| **Apex Signals**            | Trading signals & market analysis platform   | [apex-signals.vercel.app](https://apex-signals.vercel.app)                        |
+| **Salvage Solutions**       | Project showcase & portfolio                 | [salvage-solution-showcase.vercel.app](https://salvage-solution-showcase.vercel.app)|
+| **Skardi Remix**            | Creative remix & design experimentation      | [remix-of-remix-of-remix-of-skardi-s.vercel.app](https://remix-of-remix-of-remix-of-skardi-s.vercel.app) |
 
 ---
 
@@ -68,7 +68,7 @@ Specialized in creating institutional-grade trading systems, full-stack web appl
 
 ## 🤝 Let's Connect
 
-- **Email:** tusharchandane8@gmail.com | tusharchandane8@gmail.com
+- **Email:** tusharchandane8@gmail.com | tusharchandanereplit@gmail.com
 - **LinkedIn:** [Tushar Chandane](https://linkedin.com/in/tushar-chandane)
 - **Phone:** +91-9082301827
 
