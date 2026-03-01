@@ -1,35 +1,79 @@
-## Tushar R. Chandane
-Building trading systems, automation workflows, and production web apps. Based in Mumbai.
+# Tushar R. Chandane
 
-### Focus
-- AI trading models
-- Workflow automation
-- Full‑stack platform development
+> Building high-performance trading systems, AI workflows, and production-grade web applications. Based in Mumbai, India.
 
-### Tech Stack
-Python · TensorFlow · React · Node.js · Docker · Kubernetes · PostgreSQL
+---
 
-### Featured Projects
-- THE‑RED‑MACHINE — Institutional trading system with automated retraining pipelines
-- arvis‑desk‑command — Voice‑controlled desktop automation
-- OTT‑PORTFOLIO — Netflix‑style portfolio with integrated CMS and dynamic animations
-More projects: portfolio site  
-Contact:9082301827 - tusharchandane8@gmail.com
+## 🎯 About Me
 
-### 🚀 Featured Projects
+Specialized in creating institutional-grade trading systems, full-stack web applications, and intelligent automation solutions. Passionate about merging AI/ML with practical engineering to solve real-world problems.
 
-- **[WEBZOOINNOVATION](https://webzooinnovation.com)**
-- 
-- **[THE-RED-MACHINE](https://github.com/TUSHARXP-10/THE-RED-MACHINE)**  
-  Institutional trading system featuring automated retraining pipelines.
+### Core Expertise
+- **AI/ML:** Trading algorithms, TensorFlow, model optimization
+- **Backend:** Node.js, Python, distributed systems, real-time processing
+- **Frontend:** React, Next.js, responsive design, dynamic animations
+- **DevOps:** Docker, Kubernetes, CI/CD pipelines, AWS/GCP
 
-- **[arvis-desk-command](https://github.com/TUSHARXP-10/arvis-desk-command)**  
-  Voice-controlled desktop automation for streamlined productivity.
+**Tech Stack:** Python · TensorFlow · React · Next.js · Node.js · PostgreSQL · Redis · Docker · Kubernetes
 
-- **[OTT-PORTFOLIO](https://github.com/TUSHARXP-10/OTT-PORTFOLIO)**  
-  Netflix-style portfolio site with integrated CMS and dynamic animations.
+---
 
-- **[ADNEX REALESTATE](https://adnexx-homefinder-automator.vercel.app/)**
+## 🌐 Live Projects on Vercel
 
-**More projects:** [universe-9446.vercel.app](https://universe-9446.vercel.app)  
-**Contact:** [LinkedIn](https://linkedin.com/in/tushar-chandane) · tusharchandanereplit@gmail.com
+### Featured Applications
+
+| Project | Description | Link |
+|---------|-------------|------|
+| **ADNEX Real Estate** | AI-powered property finder with intelligent matching | [adnexx-homefinder-automator.vercel.app](https://adnexx-homefinder-automator.vercel.app) |
+| **Universe Portfolio** | Interactive portfolio & project showcase | [universe-9446.vercel.app](https://universe-9446.vercel.app) |
+| **WEBZOO Innovation** | Digital innovation hub & solutions platform | [webzooinnovation.com](https://webzooinnovation.com) |
+| **Aura Design Studio** | Creative design portfolio platform | [aura-design-studio-omega.vercel.app](https://aura-design-studio-omega.vercel.app) |
+| **Our Choice** | Community-driven choice platform | [ourchoice-one.vercel.app](https://ourchoice-one.vercel.app) |
+| **RLM Prestige Real Estate** | Premium real estate showcase | [rlm-prestigerealestate.vercel.app](https://rlm-prestigerealestate.vercel.app) |
+| **Style Hub** | Fashion & design style collection | [remix-of-remix-of-skardi-style-hub.vercel.app](https://remix-of-remix-of-skardi-style-hub.vercel.app) |
+| **Style Hub V2** | Enhanced style hub with new features | [remix-of-remix-of-skardi-style-hub-psi.vercel.app](https://remix-of-remix-of-skardi-style-hub-psi.vercel.app) |
+| **Fitness Regime** | Personal fitness tracking & workout app | [fitness-regime.vercel.app](https://fitness-regime.vercel.app) |
+| **Apex Signals** | Trading signals & market analysis platform | [apex-signals.vercel.app](https://apex-signals.vercel.app) |
+| **Salvage Solutions** | Project showcase & portfolio | [salvage-solution-showcase.vercel.app](https://salvage-solution-showcase.vercel.app) |
+| **Skardi Remix** | Creative remix & design experimentation | [remix-of-remix-of-remix-of-skardi-s.vercel.app](https://remix-of-remix-of-remix-of-skardi-s.vercel.app) |
+
+---
+
+## 📚 Open Source Repositories
+
+### Trading & Automation
+- **[THE-RED-MACHINE](https://github.com/TUSHARXP-10/THE-RED-MACHINE)**
+  - Institutional trading system with automated retraining pipelines
+  - Real-time data processing, backtesting engine, live trading integration
+
+### Productivity & Automation
+- **[arvis-desk-command](https://github.com/TUSHARXP-10/arvis-desk-command)**
+  - Voice-controlled desktop automation platform
+  - NLP processing, cross-platform compatibility
+
+### Full-Stack Applications
+- **[OTT-PORTFOLIO](https://github.com/TUSHARXP-10/OTT-PORTFOLIO)**
+  - Netflix-style portfolio platform with integrated CMS
+  - Dynamic animations, responsive design, content management system
+
+---
+
+## 📊 Key Metrics
+
+- 🌐 **12+ Live Applications** on Vercel
+- 💼 Enterprise-grade backend systems
+- 🤖 ML models in production
+- 📱 Mobile-responsive web applications
+- 🎨 Full-stack design & development expertise
+
+---
+
+## 🤝 Let's Connect
+
+- **Email:** tusharchandane8@gmail.com | tusharchandanereplit@gmail.com
+- **LinkedIn:** [Tushar Chandane](https://linkedin.com/in/tushar-chandane)
+- **Phone:** +91-9082301827
+
+---
+
+*Last updated: 2026 | Open to collaborations, consulting, and innovative projects*
