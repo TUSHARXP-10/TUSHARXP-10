@@ -8,7 +8,7 @@
 
 Hey, I'm Tushar.
 
-Self-taught developer based in Mumbai. No fancy degree — 
+Self-taught developer based in Mumbai.   — 
 just years of building things and figuring it out.
 
 I work across three areas I genuinely care about:
