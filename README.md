@@ -6,7 +6,24 @@
 
 ## 🎯 About Me
 
-Specialized in creating institutional-grade trading systems, full-stack web applications, and intelligent automation solutions. Passionate about merging AI/ML with practical engineering to solve real-world problems.
+Hey, I'm Tushar.
+
+Self-taught developer based in Mumbai. No fancy degree — 
+just years of building things and figuring it out.
+
+I work across three areas I genuinely care about:
+→ Algorithmic trading systems (THE-RED-MACHINE is my most 
+  serious project)
+→ Full-stack web apps — React, Next.js, Node.js
+→ Automation tools that save people actual time
+
+I'm still learning. Probably always will be.
+But everything on this profile is something I actually built 
+— not tutorial copies, not templates.
+
+If you're a founder or dev who wants to work together,
+reach me at: tusharchandane8@gmail.com
+
 
 ### Core Expertise
 - **AI/ML:** Trading algorithms, TensorFlow, model optimization
