@@ -7,7 +7,7 @@
 ## 🎯 About Me
 
 Hey, I'm Tushar.
-
+https://webzooinnovation.com (my portfolio)
 Self-taught developer based in Mumbai.   — 
 just years of building things and figuring it out.
 
@@ -57,14 +57,14 @@ reach me at: tusharchandane8@gmail.com
 ## 📚 Open Source Repositories
 
 ### Trading & Automation
-- **[THE-RED-MACHINE](https://github.com/TUSHARXP-10/THE-RED-MACHINE)**
+- **[THE-RED-MACHINE2.O](https://github.com/TUSHARXP-10/THE-REDMACHINE-2.O)**
   - Institutional trading system with automated retraining pipelines
   - Real-time data processing, backtesting engine, live trading integration
 
 ### Productivity & Automation
-- **[arvis-desk-command](https://github.com/TUSHARXP-10/arvis-desk-command)**
-  - Voice-controlled desktop automation platform
-  - NLP processing, cross-platform compatibility
+- **[my portfolio](https://webzooinnovation.com)**
+  - personal portfolio
+  - experience, cross-platform compatibility
 
 ### Full-Stack Applications
 - **[OTT-PORTFOLIO](https://github.com/TUSHARXP-10/OTT-PORTFOLIO)**
