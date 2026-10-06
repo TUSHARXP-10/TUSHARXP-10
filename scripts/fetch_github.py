@@ -17,8 +17,9 @@ from kit import CFG, DATA
 
 API = "https://api.github.com"
 USER = CFG["github_user"]
-# never show the profile's own bookkeeping as "activity"
-SKIP_REPOS = {r.lower() for r in CFG.get("activity_skip", [])} | {USER.lower()}
+# never show the profile's own bookkeeping, or anything listed in activity_hide, as "activity"
+SKIP_REPOS = ({r.lower() for r in CFG.get("activity_skip", []) + CFG.get("activity_hide", [])}
+              | {USER.lower()})
 
 
 def get(s, path, params=None):
@@ -50,13 +51,33 @@ def one_line(msg, cap=80):
     return msg if len(msg) <= cap else msg[:cap - 1] + "…"
 
 
-def activity(events):
+def enrich_push(s, repo_full, p):
+    """The events API stopped including commits in PushEvent payloads; ask for them."""
+    head, before = p.get("head"), p.get("before")
+    count, msg = p.get("size") or len(p.get("commits") or []), ""
+    if s is None:
+        return count, msg
+    if head and before and not set(before) <= {"0"}:
+        cmp = get(s, f"/repos/{repo_full}/compare/{before}...{head}")
+        if cmp:
+            count = cmp.get("total_commits") or count
+            commits = cmp.get("commits") or []
+            if commits:
+                msg = one_line((commits[-1].get("commit") or {}).get("message"))
+    if not msg:
+        c = get(s, f"/repos/{repo_full}/commits/{head}") if head else None
+        if isinstance(c, dict):
+            msg = one_line((c.get("commit") or {}).get("message"))
+    return count, msg
+
+
+def activity(events, s=None):
     """Turn raw public events into short, recruiter-readable lines."""
-    out = []
+    out, seen_push = [], set()
     for e in events or []:
         repo_full = (e.get("repo") or {}).get("name", "")
         owner, _, name = repo_full.partition("/")
-        if name.lower() in SKIP_REPOS:
+        if name.lower() in SKIP_REPOS or repo_full.lower() in SKIP_REPOS:
             continue
         repo = name if owner.lower() == USER.lower() else repo_full
         p = e.get("payload") or {}
@@ -65,7 +86,12 @@ def activity(events):
             commits = p.get("commits") or []
             msg = one_line(commits[-1].get("message")) if commits else ""
             branch = (p.get("ref") or "").replace("refs/heads/", "")
+            if repo in seen_push:
+                continue  # already showing the newest push to this repo
+            seen_push.add(repo)
             count = p.get("size") or len(commits)
+            if not msg:
+                count, msg = enrich_push(s, repo_full, p)
             verb = f"pushed {count} commit{'s' if count != 1 else ''}" if count else "pushed"
             item = ("push", verb + (f" to {branch}" if branch and not msg else ""), msg)
         elif t == "CreateEvent" and p.get("ref_type") == "repository":
@@ -125,7 +151,7 @@ def main():
 
     events = get(s, f"/users/{USER}/events/public", {"per_page": 100})
     if events is not None:
-        out["activity"] = activity(events)
+        out["activity"] = activity(events, s)
 
     # keep the last good values for anything that failed this time
     path = DATA / "github.json"

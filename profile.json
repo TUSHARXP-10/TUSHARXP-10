@@ -209,5 +209,6 @@
   "portrait": {
     "cx": 0.6,
     "white_point": 0.62
-  }
+  },
+  "activity_hide": []
 }

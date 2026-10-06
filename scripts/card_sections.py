@@ -18,12 +18,15 @@ def header(m, cmd, badge):
     H = 44 if not m.mobile else 56
     y = H / 2 + fs * 0.36
     host = "tushar@github ~ $ " if not m.mobile else "~ $ "
-    x_cmd = 4 + tw(host, fs)
+    pad = 16 if not m.mobile else 14
+    x_cmd = pad + tw(host, fs)
     end = x_cmd + tw(cmd, fs)
     bfs = 10 if not m.mobile else 13
     bw = tw(badge, bfs) + 16
-    bx = W - bw - 2
-    body = (f'<text x="4" y="{n(round(y, 1))}" font-size="{fs}" fill="{ACCENT}" font-weight="bold">{esc(host)}'
+    bx = W - bw - pad + 4
+    # own dark background so the strip reads on GitHub's light theme too
+    frame = f'<rect x=".5" y=".5" width="{W - 1}" height="{H - 1}" rx="{H / 2 - 4:.0f}" fill="{BG}" stroke="{LINE}"/>'
+    body = (frame + f'<text x="{pad}" y="{n(round(y, 1))}" font-size="{fs}" fill="{ACCENT}" font-weight="bold">{esc(host)}'
             f'<tspan fill="{FG}">{esc(cmd)}</tspan></text>'
             + blink(end + 4, y - fs * 0.85, fs * 0.55, fs * 1.05, ACCENT)
             + f'<line x1="{end + fs:.1f}" y1="{H / 2:.1f}" x2="{bx - 10:.1f}" y2="{H / 2:.1f}" stroke="{LINE}" stroke-dasharray="3 5"/>'
