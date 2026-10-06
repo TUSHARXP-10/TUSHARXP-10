@@ -1,11 +1,15 @@
 {
   "github_user": "TUSHARXP-10",
   "github_id": 195526235,
+  "profile_repo": "TUSHARXP-10",
+  "branch": "main",
   "handle": "tushar",
   "name": "Tushar",
   "full_name": "Tushar R. Chandane",
   "location": "Mumbai, IN",
+  "email": "tusharchandane8@gmail.com",
   "portfolio": "https://webzooinnovation.com",
+  "linkedin": "https://linkedin.com/in/tushar-chandane",
   "roles": [
     "trading systems",
     "AI workflows",
@@ -199,5 +203,11 @@
       "https://github.com/TUSHARXP-10?tab=repositories"
     ]
   ],
-  "avatar_cx": 0.6
+  "activity_skip": [
+    "Repo-profile-"
+  ],
+  "portrait": {
+    "cx": 0.6,
+    "white_point": 0.62
+  }
 }

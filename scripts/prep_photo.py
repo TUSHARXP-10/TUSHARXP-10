@@ -1,10 +1,15 @@
-"""Step 3a: prep a portrait photo for ASCII conversion (run locally, once per photo).
+"""Turn your own photo into the ASCII portrait (run locally, once per photo).
 
-  python scripts/prep_photo.py source-photo.jpg   ->  source-prepped.png
+  pip install -r scripts/requirements.txt
+  python scripts/prep_photo.py path/to/photo.jpg
 
-1. Remove the background (rembg) so only the subject is left.
-2. Boost local contrast with CLAHE so a flatly lit face gets real highlights/shadows.
-3. Composite onto pure white so the background maps to spaces in the ASCII ramp.
+1. Remove the background (rembg) so only you are left.
+2. Boost local contrast with CLAHE so a flatly lit face gets real shadows.
+3. Composite onto white so the background prints as spaces.
+4. Save only the ASCII rows to data/portrait.json (source: "photo"); the
+   photo itself never enters the repo. Commit that file and push.
+
+To go back to the auto-updating GitHub-avatar portrait, delete data/portrait.json.
 """
 import sys
 from pathlib import Path
@@ -13,14 +18,13 @@ import cv2
 import numpy as np
 from PIL import Image, ImageOps
 
-ROOT = Path(__file__).resolve().parent.parent
-OUT = ROOT / "source-prepped.png"
+from card_portrait import grid_from_image, write_cache
 
 
 def main():
-    src = Path(sys.argv[1] if len(sys.argv) > 1 else ROOT / "source-photo.jpg")
-    img = ImageOps.exif_transpose(Image.open(src)).convert("RGBA")
-
+    if len(sys.argv) < 2:
+        sys.exit(__doc__)
+    img = ImageOps.exif_transpose(Image.open(Path(sys.argv[1]))).convert("RGBA")
     try:
         from rembg import remove
         img = remove(img)
@@ -28,23 +32,17 @@ def main():
         print("rembg not installed; keeping the original background")
 
     alpha = np.asarray(img.getchannel("A"), dtype=np.float32) / 255
-    gray = np.asarray(img.convert("L"))
-    clahe = cv2.createCLAHE(clipLimit=3.0, tileGridSize=(8, 8))
-    gray = clahe.apply(gray).astype(np.float32)
+    gray = cv2.createCLAHE(clipLimit=3.0, tileGridSize=(8, 8)).apply(np.asarray(img.convert("L")))
+    out = gray.astype(np.float32) * alpha + 255 * (1 - alpha)
 
-    # composite onto white
-    out = gray * alpha + 255 * (1 - alpha)
-
-    # crop to the subject's bounding box (plus a little margin)
-    ys, xs = np.where(alpha > 0.1)
+    ys, xs = np.where(alpha > 0.1)  # crop to the subject, with a small margin
     if len(xs):
         m = int(0.04 * max(out.shape))
-        y0, y1 = max(ys.min() - m, 0), min(ys.max() + m, out.shape[0])
-        x0, x1 = max(xs.min() - m, 0), min(xs.max() + m, out.shape[1])
-        out = out[y0:y1, x0:x1]
+        out = out[max(ys.min() - m, 0):ys.max() + m, max(xs.min() - m, 0):xs.max() + m]
 
-    Image.fromarray(out.clip(0, 255).astype(np.uint8), "L").save(OUT)
-    print(f"wrote {OUT.name}")
+    rows = grid_from_image(Image.fromarray(out.clip(0, 255).astype(np.uint8), "L"))
+    write_cache(rows, "photo")
+    print(f"wrote data/portrait.json ({len(rows)} rows) — run python scripts/build.py, then commit")
 
 
 if __name__ == "__main__":

@@ -1,32 +1,48 @@
-"""Regenerate every card. Network steps are skipped with --offline.
+"""Rebuild everything: fetch live data, render every card in both layouts,
+then regenerate README.md.
 
-  python scripts/build.py [--offline]
+  python scripts/build.py            # full run (what the daily workflow does)
+  python scripts/build.py --offline  # re-render from the data already in data/
 """
-import subprocess
+import shutil
 import sys
-from pathlib import Path
 
-HERE = Path(__file__).resolve().parent
-NETWORK = ["fetch_contributions.py", "fetch_github.py"]
-RENDER = ["render_heatmap_svg.py", "render_stats_svg.py", "make_ascii_svg.py --auto", "make_whoami.py",
-          "make_hero.py", "make_tldr.py", "make_spotlight.py", "make_stack.py", "make_cards.py", "make_footer.py"]
+import card_activity
+import card_hero
+import card_items
+import card_langs
+import card_sections
+import card_skyline
+import card_spotlight
+import card_stack
+import card_tldr
+import card_whoami
+import make_readme
+from kit import ASSETS
+
+CARDS = [card_hero, card_tldr, card_skyline, card_whoami, card_spotlight, card_stack, card_langs, card_activity,
+         card_items, card_sections]
 
 
-def run(cmd):
-    script, *args = cmd.split()
-    print(f"→ {cmd}")
-    return subprocess.run([sys.executable, str(HERE / script), *args]).returncode
+def fetch():
+    import fetch_contributions
+    import fetch_github
+    for step in (fetch_contributions.main, fetch_github.main):
+        try:
+            step()
+        except Exception as e:  # keep rendering with the last good data
+            print(f"warning: {step.__module__} failed: {e}")
 
 
 def main():
-    failed = []
     if "--offline" not in sys.argv:
-        failed += [c for c in NETWORK if run(c)]  # keep the last good data if a fetch fails
-    for c in RENDER:
-        if run(c):
-            sys.exit(f"render step failed: {c}")
-    if failed:
-        print(f"warning: fetch failed ({', '.join(failed)}); rendered with the previous data")
+        fetch()
+    # start clean so cards for removed projects don't linger
+    for sub in ("desktop", "mobile"):
+        shutil.rmtree(ASSETS / sub, ignore_errors=True)
+    for card in CARDS:
+        card.main()
+    make_readme.main()
 
 
 if __name__ == "__main__":
