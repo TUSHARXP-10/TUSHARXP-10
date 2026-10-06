@@ -36,7 +36,7 @@ def build(m):
                f'<circle cx="{gx}" cy="{y - 4}" r="4.5" fill="{col}" stroke="#0d1117" stroke-width="2"/>')
         msg = r.get("text") or ""
         if not mob:
-            date_x, repo_x = gx + 18, gx + 18 + 7 * fs * 0.6
+            date_x, repo_x = gx + 18, gx + 18 + 8 * fs * 0.6
             repo = r.get("repo", "")
             verb_x = repo_x + (len(repo) + 2) * fs * 0.6
             tail = r.get("verb", "") + (f" — {msg}" if msg else "")

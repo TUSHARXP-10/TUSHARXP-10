@@ -62,7 +62,8 @@ def project(m, i, name, desc, url, tag):
     by = H - 20 * (1 if not m.mobile else 1.15)
     body = (monogram(20, 20, mono, initials(name), col)
             + text(nx, 20 + mono * 0.42, fit(name, room, nfs), nfs, FG, "bold")
-            + text(nx, 20 + mono * 0.42 + dfs * 1.75, fit(desc, W - nx - 18, dfs), dfs, DIM)
+            + "".join(text(nx, 20 + mono * 0.42 + dfs * (1.75 + 1.3 * j), t, dfs, DIM)
+                      for j, t in enumerate(wrap(desc, W - nx - 18, dfs, 2 if m.mobile else 1)))
             + f'<g transform="translate({W - 18 - tag_w:.1f} 18)">{tag_svg}</g>'
             + f'<line x1="20" y1="{sep:.1f}" x2="{W - 18}" y2="{sep:.1f}" stroke="{LINE}" stroke-dasharray="2 4"/>'
             + pulse(26, by - bfs * 0.35, 3 * k, GREEN)
