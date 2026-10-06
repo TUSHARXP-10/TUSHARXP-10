@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-06T16:58:48+00:00",
+ "fetched_at": "2026-10-06T17:00:45+00:00",
  "repos": {
   "THE-REDMACHINE-2.O": {
    "description": null,
@@ -41,29 +41,29 @@
    "date": "2026-10-06",
    "kind": "push",
    "repo": "atahruh--tahir-",
-   "verb": "pushed to main",
-   "text": ""
+   "verb": "pushed 1 commit",
+   "text": "Use Supabase for the production database"
   },
   {
    "date": "2026-09-30",
    "kind": "push",
    "repo": "liyaqat-raza",
-   "verb": "pushed to main",
-   "text": ""
+   "verb": "pushed 1 commit",
+   "text": "Fix demo mode on the live site: ignore empty Supabase variables"
   },
   {
    "date": "2026-09-21",
    "kind": "push",
    "repo": "resort-system",
-   "verb": "pushed to main",
-   "text": ""
+   "verb": "pushed 7 commits",
+   "text": "Merge feat/money-path: the money write-path and the owner's screens"
   },
   {
    "date": "2026-09-16",
    "kind": "push",
    "repo": "raza-perfume-xt",
-   "verb": "pushed to main",
-   "text": ""
+   "verb": "pushed 1 commit",
+   "text": "Add a scroll-driven palette that carries the whole site"
   }
  ]
 }
