@@ -24,7 +24,7 @@ from PIL import Image, ImageDraw, ImageFont, ImageOps
 from terminal import ACCENT, BAR_H, CFG, DIM, FG, H, PAD, ROOT, W, esc, window
 
 SRC = ROOT / "source-prepped.png"
-OUT = ROOT / f"{CFG['handle']}-ascii.svg"
+OUT = ROOT / "assets" / "portrait.svg"
 
 RAMP = " .`:-=+*cs#%@"   # bright (sparse) -> dark (dense); white background -> space
 COLS = 100
@@ -45,8 +45,17 @@ def avatar():
     r.raise_for_status()
     img = Image.open(io.BytesIO(r.content)).convert("RGBA")
     white = Image.new("RGBA", img.size, "white")
-    gray = Image.alpha_composite(white, img).convert("L")
-    return ImageOps.autocontrast(gray, cutoff=1)
+    gray = ImageOps.autocontrast(Image.alpha_composite(white, img).convert("L"), cutoff=1)
+    # avatars aren't background-removed: push light tones (walls, sky) to white so they
+    # print as spaces, and fade anything outside an ellipse around the subject
+    px = np.asarray(gray, dtype=np.float32) / 255
+    px = np.clip((px - 0.06) / (0.62 - 0.06), 0, 1) ** 1.1
+    h, w = px.shape
+    yy, xx = np.mgrid[0:h, 0:w]
+    d = ((xx - w * CFG.get("avatar_cx", 0.5)) / (w * 0.45)) ** 2 + ((yy - h * 0.55) / (h * 0.55)) ** 2
+    keep = np.clip((1.0 - d) / 0.12, 0, 1)
+    px = px * keep + (1 - keep)
+    return Image.fromarray((px * 255).astype(np.uint8), "L")
 
 
 def name_image(text):

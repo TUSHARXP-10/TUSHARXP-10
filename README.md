@@ -1,69 +1,61 @@
 <div align="center">
 
+<a href="https://webzooinnovation.com"><img src="./assets/hero.svg" width="100%" alt="Tushar R. Chandane — building trading systems, AI workflows and full-stack products. Open to work." /></a>
+
+<img src="./assets/tldr.svg" width="100%" alt="Why shortlist Tushar: ships end to end, builds hard systems, shows up every day, owns the whole stack." />
+
+<br><br>
+
 <h3><code>tushar@github ~ $ ./contributions.sh</code></h3>
-<img src="./contrib-heatmap.svg" width="860" alt="Tushar's GitHub contribution graph for the last year" />
+<img src="./assets/contrib-heatmap.svg" width="100%" alt="Contribution graph for the last year" />
 
 <br><br>
 
 <h3><code>tushar@github ~ $ whoami</code></h3>
-<table>
-  <tr>
-    <td valign="top"><img src="./tushar-ascii.svg" width="400" alt="ASCII portrait of Tushar" /></td>
-    <td valign="top"><img src="./stats-card.svg" width="400" alt="Contribution stats: streaks, totals, best day and a monthly chart" /></td>
-  </tr>
-</table>
+<img src="./assets/whoami.svg" width="100%" alt="ASCII portrait and live contribution stats" />
 
-<br>
+<br><br>
 
-<h3><code>tushar@github ~ $ cat about.txt</code></h3>
-<img src="./about-card.svg" width="860" alt="Tushar R. Chandane — Mumbai-based self-taught developer building trading systems, AI workflows and web apps" />
+<h3><code>tushar@github ~ $ ./the-red-machine --architecture</code></h3>
+<a href="https://github.com/TUSHARXP-10/THE-REDMACHINE-2.O"><img src="./assets/spotlight.svg" width="100%" alt="THE-RED-MACHINE 2.0 architecture: market data → feature engine → ML model → backtest → live execution, with automated retraining" /></a>
+
+<br><br>
+
+<h3><code>tushar@github ~ $ tree ~/stack</code></h3>
+<img src="./assets/stack.svg" width="100%" alt="Tech stack: Python, TensorFlow, Node.js, PostgreSQL, Redis, React, Next.js, Docker, Kubernetes, AWS/GCP" />
 
 <br><br>
 
 <h3><code>tushar@github ~ $ ls ~/live --deployed</code></h3>
-
-| app | what it is | open |
-|:--|:--|:--|
-| `webzoo-innovation` | Digital innovation hub & solutions platform | [open ↗](https://webzooinnovation.com) |
-| `apex-signals` | Trading signals & market analysis | [open ↗](https://apex-signals.vercel.app) |
-| `aura-design-studio` | Creative design portfolio | [open ↗](https://aura-design-studio-omega.vercel.app) |
-| `rlm-prestige` | Premium real-estate showcase | [open ↗](https://rlm-prestigerealestate.vercel.app) |
-| `fitness-regime` | Fitness tracking & workout app | [open ↗](https://fitness-regime.vercel.app) |
-| `our-choice` | Community-driven choice platform | [open ↗](https://ourchoice-one.vercel.app) |
-| `style-hub` | Fashion & design style collection | [v1 ↗](https://remix-of-remix-of-skardi-style-hub.vercel.app) · [v2 ↗](https://remix-of-remix-of-skardi-style-hub-psi.vercel.app) |
-| `salvage-solutions` | Project showcase | [open ↗](https://salvage-solution-showcase.vercel.app) |
-| `skardi-remix` | Design experimentation | [open ↗](https://remix-of-remix-of-remix-of-skardi-s.vercel.app) |
-
-<br>
-
-<h3><code>tushar@github ~ $ ls ~/repos --featured</code></h3>
-
-<table>
-  <tr>
-    <td valign="top" width="50%">
-      <a href="https://github.com/TUSHARXP-10/THE-REDMACHINE-2.O"><code>THE-RED-MACHINE-2.0</code></a><br>
-      <sub>Institutional-style trading system: automated retraining pipelines, real-time data, backtesting engine, live trading integration.</sub><br>
-      <sub><code>python</code> <code>trading</code> <code>ml</code></sub>
-    </td>
-    <td valign="top" width="50%">
-      <a href="https://github.com/TUSHARXP-10/OTT-PORTFOLIO"><code>OTT-PORTFOLIO</code></a><br>
-      <sub>Netflix-style portfolio platform with an integrated CMS, dynamic animations and responsive design.</sub><br>
-      <sub><code>react</code> <code>cms</code> <code>animation</code></sub>
-    </td>
-  </tr>
-</table>
-
-<br>
-
-<h3><code>tushar@github ~ $ ./links.sh</code></h3>
-
-<a href="https://webzooinnovation.com"><code>portfolio</code></a> ·
-<a href="https://linkedin.com/in/tushar-chandane"><code>linkedin</code></a> ·
-<a href="mailto:tusharchandane8@gmail.com"><code>email</code></a> ·
-<a href="https://github.com/TUSHARXP-10?tab=repositories"><code>all repos</code></a>
+<a href="https://webzooinnovation.com"><img src="./assets/cards/project-webzoo-innovation.svg" width="49%" alt="webzoo-innovation — Digital innovation hub & solutions platform" /></a>
+<a href="https://apex-signals.vercel.app"><img src="./assets/cards/project-apex-signals.svg" width="49%" alt="apex-signals — Trading signals & market analysis platform" /></a>
+<a href="https://aura-design-studio-omega.vercel.app"><img src="./assets/cards/project-aura-design-studio.svg" width="49%" alt="aura-design-studio — Creative design portfolio platform" /></a>
+<a href="https://rlm-prestigerealestate.vercel.app"><img src="./assets/cards/project-rlm-prestige.svg" width="49%" alt="rlm-prestige — Premium real-estate showcase" /></a>
+<a href="https://fitness-regime.vercel.app"><img src="./assets/cards/project-fitness-regime.svg" width="49%" alt="fitness-regime — Personal fitness tracking & workout app" /></a>
+<a href="https://ourchoice-one.vercel.app"><img src="./assets/cards/project-our-choice.svg" width="49%" alt="our-choice — Community-driven choice platform" /></a>
+<a href="https://remix-of-remix-of-skardi-style-hub.vercel.app"><img src="./assets/cards/project-style-hub.svg" width="49%" alt="style-hub — Fashion & design style collection" /></a>
+<a href="https://remix-of-remix-of-skardi-style-hub-psi.vercel.app"><img src="./assets/cards/project-style-hub-v2.svg" width="49%" alt="style-hub-v2 — Style hub, rebuilt with new features" /></a>
+<a href="https://salvage-solution-showcase.vercel.app"><img src="./assets/cards/project-salvage-solutions.svg" width="49%" alt="salvage-solutions — Project showcase & portfolio" /></a>
+<a href="https://remix-of-remix-of-remix-of-skardi-s.vercel.app"><img src="./assets/cards/project-skardi-remix.svg" width="49%" alt="skardi-remix — Creative remix & design experiments" /></a>
 
 <br><br>
 
-<sub><code>open to collaborations, consulting and ambitious projects — founders & devs, say hi.</code></sub>
+<h3><code>tushar@github ~ $ ls ~/repos --featured</code></h3>
+<a href="https://github.com/TUSHARXP-10/THE-REDMACHINE-2.O"><img src="./assets/cards/repo-the-redmachine-2-o.svg" width="49%" alt="THE-REDMACHINE-2.O — Trading system with automated retraining, real-time data, backtesting and live trading." /></a>
+<a href="https://github.com/TUSHARXP-10/OTT-PORTFOLIO"><img src="./assets/cards/repo-ott-portfolio.svg" width="49%" alt="OTT-PORTFOLIO — Netflix-style portfolio platform with an integrated CMS and dynamic animations." /></a>
+
+<br><br>
+
+<h3><code>tushar@github ~ $ ./links.sh</code></h3>
+<a href="https://webzooinnovation.com"><img src="./assets/cards/link-portfolio.svg" width="24%" alt="portfolio" /></a>
+<a href="https://linkedin.com/in/tushar-chandane"><img src="./assets/cards/link-linkedin.svg" width="24%" alt="linkedin" /></a>
+<a href="mailto:tusharchandane8@gmail.com"><img src="./assets/cards/link-email.svg" width="24%" alt="email" /></a>
+<a href="https://github.com/TUSHARXP-10?tab=repositories"><img src="./assets/cards/link-github.svg" width="24%" alt="github" /></a>
+
+<br><br>
+
+<img src="./assets/footer.svg" width="100%" alt="Thanks for scrolling — if you're hiring, let's build something real." />
+
+<sub>every card above is generated by <a href="./scripts">./scripts</a> and refreshed daily by GitHub Actions</sub>
 
 </div>

@@ -12,7 +12,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data" / "contributions.json"
-OUT = ROOT / "contrib-heatmap.svg"
+OUT = ROOT / "assets" / "contrib-heatmap.svg"
 
 # none -> most active (level 5 is the top 5% of active days)
 PALETTE_DARK = ["#2d342d", "#3b5236", "#56744a", "#7f9f68", "#a9c98c", "#d6edbd"]
@@ -20,7 +20,7 @@ PALETTE_LIGHT = ["#e8ebe5", "#cfe0c0", "#a9c98c", "#7f9f68", "#56744a", "#34502e
 W = 860
 LEFT, TOP = 34, 18
 GAP = 2.6
-FONT = "'JetBrains Mono','SF Mono','Fira Code',Consolas,'Courier New',monospace"
+FONT = "'JetBrains Mono','SF Mono',Menlo,Consolas,'Liberation Mono','Courier New',monospace"
 
 
 def weeks_of(days):

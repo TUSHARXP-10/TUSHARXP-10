@@ -4,23 +4,200 @@
   "handle": "tushar",
   "name": "Tushar",
   "full_name": "Tushar R. Chandane",
-  "tagline": "Building high-performance trading systems, AI workflows and production-grade web apps.",
-  "about": [
-    ["location", "Mumbai, India"],
-    ["role", "Self-taught full-stack developer"],
-    ["portfolio", "webzooinnovation.com"],
-    ["flagship", "THE-RED-MACHINE — algorithmic trading system"]
+  "location": "Mumbai, IN",
+  "portfolio": "https://webzooinnovation.com",
+  "roles": [
+    "trading systems",
+    "AI workflows",
+    "full-stack products",
+    "automation that saves time"
   ],
-  "focus": [
-    "Algorithmic trading systems",
-    "Full-stack web apps — React, Next.js, Node.js",
-    "Automation tools that save people actual time"
+  "open_to": "full-time · freelance · consulting",
+  "tldr": [
+    [
+      "Ships end to end",
+      "{live_count} products live in production — idea → code → deploy"
+    ],
+    [
+      "Builds where it's hard",
+      "algorithmic trading: real-time data, backtesting, auto-retraining ML"
+    ],
+    [
+      "Shows up every day",
+      "{streak}-day streak · {total} contributions in the last year"
+    ],
+    [
+      "Owns the whole stack",
+      "Python/TensorFlow ↔ Node/React/Next.js ↔ Docker/K8s"
+    ]
   ],
+  "spotlight": {
+    "name": "THE-RED-MACHINE 2.0",
+    "repo": "THE-REDMACHINE-2.O",
+    "tagline": "institutional-style algorithmic trading system",
+    "stack": [
+      "python",
+      "tensorflow",
+      "ml",
+      "real-time"
+    ],
+    "pipeline": [
+      [
+        "market data",
+        "real-time feed"
+      ],
+      [
+        "feature engine",
+        "signal generation"
+      ],
+      [
+        "ML model",
+        "tensorflow"
+      ],
+      [
+        "backtest",
+        "engine"
+      ],
+      [
+        "live execution",
+        "broker integration"
+      ]
+    ],
+    "features": [
+      "real-time data processing",
+      "backtesting engine",
+      "automated retraining",
+      "live trading integration"
+    ]
+  },
   "stack": [
-    ["ai/ml", "Python · TensorFlow · trading algorithms"],
-    ["backend", "Node.js · PostgreSQL · Redis · real-time"],
-    ["frontend", "React · Next.js · responsive UI · animation"],
-    ["devops", "Docker · Kubernetes · CI/CD · AWS/GCP"]
+    [
+      "ai-ml",
+      [
+        "python",
+        "tensorflow",
+        "trading-algorithms",
+        "model-optimization"
+      ]
+    ],
+    [
+      "backend",
+      [
+        "node.js",
+        "postgresql",
+        "redis",
+        "distributed-systems",
+        "real-time-processing"
+      ]
+    ],
+    [
+      "frontend",
+      [
+        "react",
+        "next.js",
+        "responsive-design",
+        "animations"
+      ]
+    ],
+    [
+      "devops",
+      [
+        "docker",
+        "kubernetes",
+        "ci-cd",
+        "aws-gcp"
+      ]
+    ]
   ],
-  "motto": "Everything here is something I actually built — not tutorial copies, not templates."
+  "projects": [
+    [
+      "webzoo-innovation",
+      "Digital innovation hub & solutions platform",
+      "https://webzooinnovation.com",
+      "platform"
+    ],
+    [
+      "apex-signals",
+      "Trading signals & market analysis platform",
+      "https://apex-signals.vercel.app",
+      "trading"
+    ],
+    [
+      "aura-design-studio",
+      "Creative design portfolio platform",
+      "https://aura-design-studio-omega.vercel.app",
+      "design"
+    ],
+    [
+      "rlm-prestige",
+      "Premium real-estate showcase",
+      "https://rlm-prestigerealestate.vercel.app",
+      "real-estate"
+    ],
+    [
+      "fitness-regime",
+      "Personal fitness tracking & workout app",
+      "https://fitness-regime.vercel.app",
+      "health"
+    ],
+    [
+      "our-choice",
+      "Community-driven choice platform",
+      "https://ourchoice-one.vercel.app",
+      "community"
+    ],
+    [
+      "style-hub",
+      "Fashion & design style collection",
+      "https://remix-of-remix-of-skardi-style-hub.vercel.app",
+      "fashion"
+    ],
+    [
+      "style-hub-v2",
+      "Style hub, rebuilt with new features",
+      "https://remix-of-remix-of-skardi-style-hub-psi.vercel.app",
+      "fashion"
+    ],
+    [
+      "salvage-solutions",
+      "Project showcase & portfolio",
+      "https://salvage-solution-showcase.vercel.app",
+      "showcase"
+    ],
+    [
+      "skardi-remix",
+      "Creative remix & design experiments",
+      "https://remix-of-remix-of-remix-of-skardi-s.vercel.app",
+      "design"
+    ]
+  ],
+  "repos": [
+    [
+      "THE-REDMACHINE-2.O",
+      "Trading system with automated retraining, real-time data, backtesting and live trading."
+    ],
+    [
+      "OTT-PORTFOLIO",
+      "Netflix-style portfolio platform with an integrated CMS and dynamic animations."
+    ]
+  ],
+  "links": [
+    [
+      "portfolio",
+      "https://webzooinnovation.com"
+    ],
+    [
+      "linkedin",
+      "https://linkedin.com/in/tushar-chandane"
+    ],
+    [
+      "email",
+      "mailto:tusharchandane8@gmail.com"
+    ],
+    [
+      "github",
+      "https://github.com/TUSHARXP-10?tab=repositories"
+    ]
+  ],
+  "avatar_cx": 0.6
 }

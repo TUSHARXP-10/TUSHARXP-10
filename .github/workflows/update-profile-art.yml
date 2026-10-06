@@ -20,12 +20,10 @@ jobs:
           python-version: "3.11"
       # rembg/opencv are only for prep_photo.py, which you run locally
       - run: pip install requests==2.32.3 beautifulsoup4==4.12.3 pillow numpy
-      - run: python scripts/fetch_contributions.py
-      - run: python scripts/render_heatmap_svg.py
-      - run: python scripts/render_stats_svg.py
-      - run: python scripts/make_about_card.py
-      - run: python scripts/make_ascii_svg.py --auto
+      - run: python scripts/build.py
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: refresh profile art [skip ci]"
-          file_pattern: "data/contributions.json *.svg"
+          file_pattern: "data/*.json assets/*.svg assets/cards/*.svg"

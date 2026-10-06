@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="46" viewBox="0 0 200 46">
+<g font-family="'JetBrains Mono','SF Mono',Menlo,Consolas,'Liberation Mono','Courier New',monospace" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.36s" dur=".4s" fill="freeze"/>
+<rect x=".5" y=".5" width="199" height="45" rx="8" fill="#161b22" stroke="#30363d"/>
+<rect x=".5" y="42" width="199" height="3.5" rx="1.5" fill="#a9c98c" opacity=".5"/>
+<text x="20" y="28" font-size="12" font-weight="bold" fill="#a9c98c">&lt;/&gt;</text>
+<text x="52" y="28" font-size="12.5" fill="#e6edf3">github</text>
+<text x="182" y="28" font-size="12" fill="#8b949e" text-anchor="end">↗</text>
+</g></svg>

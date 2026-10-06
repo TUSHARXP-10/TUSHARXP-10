@@ -13,7 +13,7 @@ import os
 from terminal import ACCENT, BAR_H, DIM, FG, H, LINE, PAD, ROOT, TILE, W, esc, window
 
 DATA = ROOT / "data" / "contributions.json"
-OUT = ROOT / "stats-card.svg"
+OUT = ROOT / "assets" / "stats.svg"
 GAP = 8
 TILE_H = 64
 BAR = "#7f9f68"
