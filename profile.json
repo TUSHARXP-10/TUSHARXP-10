@@ -3,22 +3,24 @@
   "github_id": 195526235,
   "handle": "tushar",
   "name": "Tushar",
-  "links": [
-    [
-      "portfolio",
-      "https://webzooinnovation.com"
-    ],
-    [
-      "linkedin",
-      "https://linkedin.com/in/tushar-chandane"
-    ],
-    [
-      "github",
-      "https://github.com/TUSHARXP-10"
-    ],
-    [
-      "email",
-      "mailto:tusharchandane8@gmail.com"
-    ]
-  ]
+  "full_name": "Tushar R. Chandane",
+  "tagline": "Building high-performance trading systems, AI workflows and production-grade web apps.",
+  "about": [
+    ["location", "Mumbai, India"],
+    ["role", "Self-taught full-stack developer"],
+    ["portfolio", "webzooinnovation.com"],
+    ["flagship", "THE-RED-MACHINE — algorithmic trading system"]
+  ],
+  "focus": [
+    "Algorithmic trading systems",
+    "Full-stack web apps — React, Next.js, Node.js",
+    "Automation tools that save people actual time"
+  ],
+  "stack": [
+    ["ai/ml", "Python · TensorFlow · trading algorithms"],
+    ["backend", "Node.js · PostgreSQL · Redis · real-time"],
+    ["frontend", "React · Next.js · responsive UI · animation"],
+    ["devops", "Docker · Kubernetes · CI/CD · AWS/GCP"]
+  ],
+  "motto": "Everything here is something I actually built — not tutorial copies, not templates."
 }

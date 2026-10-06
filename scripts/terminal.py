@@ -23,7 +23,8 @@ def esc(s):
     return escape(str(s))
 
 
-def window(title, body, defs="", style=""):
+def window(title, body, defs="", style="", w=W, h=H):
+    W, H = w, h  # noqa: N806 - shadow the panel defaults for this window
     dots = "".join(f'<circle cx="{14 + i * 11}" cy="{BAR_H / 2}" r="3.2" fill="{c}"/>'
                    for i, c in enumerate(("#e0a458", "#d9b25c", "#c9a24f")))
     return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}">
