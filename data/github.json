@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-17T10:41:28+00:00",
+ "fetched_at": "2026-10-18T11:01:44+00:00",
  "repos": {
   "THE-REDMACHINE-2.O": {
    "description": null,
@@ -38,18 +38,18 @@
  },
  "activity": [
   {
-   "date": "2026-10-14",
+   "date": "2026-10-17",
    "kind": "push",
    "repo": "Ai-interviewer-",
    "verb": "pushed 1 commit",
-   "text": "Add the 4-round assessment with a live customer call"
+   "text": "Engineering interviews in a company's style, for my engineers"
   },
   {
-   "date": "2026-10-11",
+   "date": "2026-10-17",
    "kind": "push",
    "repo": "liyaqat-raza",
    "verb": "pushed 1 commit",
-   "text": "Intro: show the logo without the NX2 line"
+   "text": "Scroll: record reading depth once scrolling settles"
   },
   {
    "date": "2026-10-11",
