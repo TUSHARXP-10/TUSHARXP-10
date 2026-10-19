@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-18T11:01:44+00:00",
+ "fetched_at": "2026-10-19T13:10:31+00:00",
  "repos": {
   "THE-REDMACHINE-2.O": {
    "description": null,
@@ -21,7 +21,7 @@
   }
  },
  "public_repos": 82,
- "followers": 6,
+ "followers": 5,
  "created_at": "2025-01-18T06:05:34Z",
  "repo_count": 81,
  "stars": 14,
@@ -40,16 +40,16 @@
   {
    "date": "2026-10-17",
    "kind": "push",
-   "repo": "Ai-interviewer-",
-   "verb": "pushed 1 commit",
-   "text": "Engineering interviews in a company's style, for my engineers"
+   "repo": "liyaqat-raza",
+   "verb": "pushed 2 commits",
+   "text": "Scroll: depth cue for parallax layers"
   },
   {
    "date": "2026-10-17",
    "kind": "push",
-   "repo": "liyaqat-raza",
-   "verb": "pushed 1 commit",
-   "text": "Scroll: record reading depth once scrolling settles"
+   "repo": "Ai-interviewer-",
+   "verb": "pushed 2 commits",
+   "text": "Home page: copy for both tracks, engineering and practice cards"
   },
   {
    "date": "2026-10-11",
@@ -71,13 +71,6 @@
    "repo": "resort-system",
    "verb": "pushed 7 commits",
    "text": "Merge feat/money-path: the money write-path and the owner's screens"
-  },
-  {
-   "date": "2026-09-16",
-   "kind": "push",
-   "repo": "raza-perfume-xt",
-   "verb": "pushed 1 commit",
-   "text": "Add a scroll-driven palette that carries the whole site"
   }
  ]
 }
