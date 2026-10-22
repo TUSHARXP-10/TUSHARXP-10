@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-21T11:46:17+00:00",
+ "fetched_at": "2026-10-22T11:49:26+00:00",
  "repos": {
   "THE-REDMACHINE-2.O": {
    "description": null,
@@ -38,11 +38,11 @@
  },
  "activity": [
   {
-   "date": "2026-10-19",
+   "date": "2026-10-21",
    "kind": "push",
    "repo": "Ai-interviewer-",
    "verb": "pushed 1 commit",
-   "text": "Install as an app, back up and restore history, export CSV"
+   "text": "Add a Results board: see every candidate's result on the website"
   },
   {
    "date": "2026-10-17",
@@ -64,13 +64,6 @@
    "repo": "atahruh--tahir-",
    "verb": "opened PR #1",
    "text": ""
-  },
-  {
-   "date": "2026-09-21",
-   "kind": "push",
-   "repo": "resort-system",
-   "verb": "pushed 7 commits",
-   "text": "Merge feat/money-path: the money write-path and the owner's screens"
   }
  ]
 }
