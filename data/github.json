@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-10T14:50:30+00:00",
+ "fetched_at": "2026-11-11T14:18:27+00:00",
  "repos": {
   "THE-REDMACHINE-2.O": {
    "description": null,
@@ -57,13 +57,6 @@
    "repo": "liyaqat-raza",
    "verb": "pushed 2 commits",
    "text": "Scroll: depth cue for parallax layers"
-  },
-  {
-   "date": "2026-10-11",
-   "kind": "push",
-   "repo": "atahruh--tahir-",
-   "verb": "pushed 1 commit",
-   "text": "New photo of Yasinali Sayed for the inspiration section"
   }
  ]
 }
