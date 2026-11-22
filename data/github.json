@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-21T14:37:51+00:00",
+ "fetched_at": "2026-11-22T14:31:59+00:00",
  "repos": {
   "THE-REDMACHINE-2.O": {
    "description": null,
@@ -43,13 +43,6 @@
    "repo": "ctb",
    "verb": "pushed 1 commit",
    "text": "Phone-only server setup: Claude login on the server, no PC needed"
-  },
-  {
-   "date": "2026-10-21",
-   "kind": "push",
-   "repo": "Ai-interviewer-",
-   "verb": "pushed 1 commit",
-   "text": "Results board: public by default; the passcode only deletes"
   }
  ]
 }
